@@ -1,0 +1,73 @@
+body, html, h1, p, span, div {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, "微軟正黑體", Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.join {
+    position: absolute;
+    width: 180px;
+    height: 80px;
+    left: 50%;
+    top: 50%;
+    margin: -40px 0 0 -90px;
+    box-sizing: border-box;
+}
+.join a {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+    color: #222;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.join a:hover {
+    color: #419aaa;
+    border-color: #419aaa;
+}
+.container {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    margin: 200px 0 0 -200px;
+    left: 50%;
+}
+.UserGroup {
+    padding: 10px 0 0 0;
+    font-size: 16px;
+    color: #565656;
+}
+.passwordGroup {
+    padding: 10px 0 0 0;
+    font-size: 16px;
+    color: #565656;
+}
+.wrong {
+    font-size: 14px;
+    color: #ff0000;
+    padding: 10px 0;
+}
+input {
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.btn {
+    width: 100px;
+    height: 38px;
+    margin: 10px 0 0 0;
+    background: green;
+    color: #fff;
+    cursor: pointer;
+}
+.success {
+    font-size: 40px;
+    padding: 100px 0 0 0;
+    text-align: center;
+    color: green;
+}
